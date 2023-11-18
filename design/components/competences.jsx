@@ -5,7 +5,7 @@ const CompetencesSection = () => {
     return (
             <div>
 
-                <h2 className="text-center text-4xl font-bold text-white mt-36 mb-4 md:mb-4 md:mt-0">Mes compétences</h2>
+                <h2 className="text-center text-4xl font-bold text-white mt-22 mb-4 md:mb-4 md:mt-0">Mes compétences</h2>
                 <ScrollCompetences/>
             </div>
     );
