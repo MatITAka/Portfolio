@@ -18,7 +18,7 @@ export default function Home() {
 
        <Competences/>
         
-      <ProjectsSection />
+       <ProjectsSection />
 
         <Contact/>
        
