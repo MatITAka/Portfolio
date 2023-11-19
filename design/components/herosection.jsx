@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Avatar from "../assets/images/matzoo.png"
+import Avatar from "../assets/images/matzoo.PNG"
 
 
 const HeroSection = () => {
