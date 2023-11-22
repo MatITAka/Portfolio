@@ -5,7 +5,7 @@ const CompetencesSection = () => {
     return (
             <div className="text-center mt-4 mb-8 md:mb-12">
 
-                <p>Build with love by Matzoo</p>
+                <p>Build with 💌  by Matzoo</p>
                 
                 
             </div>

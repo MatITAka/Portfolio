@@ -32,6 +32,8 @@ const Navbar = () => {
         >
           
           🏠 Home 
+
+          
           
         </Link>
         <div className="mobile-menu block md:hidden">
