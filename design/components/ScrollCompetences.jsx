@@ -18,6 +18,8 @@ const ScrollCompetences = () => {
           <span className="text-2xl md:text-4xl mx-4">Figma</span>
           <span className="text-2xl md:text-4xl mx-4">Jest</span>
           <span className="text-2xl md:text-4xl mx-4">AGILE</span>
+          <span className="text-2xl md:text-4xl mx-4">API-Rest</span>
+          <span className="text-2xl md:text-4xl mx-4">SEO</span>
           <span className="text-2xl md:text-4xl mx-4"></span>
         </div>
 
@@ -35,6 +37,8 @@ const ScrollCompetences = () => {
           <span className="text-2xl md:text-4xl mx-4">Figma</span>
           <span className="text-2xl md:text-4xl mx-4">Jest</span>
           <span className="text-2xl md:text-4xl mx-4">AGILE</span>
+          <span className="text-2xl md:text-4xl mx-4">API-Rest</span>
+          <span className="text-2xl md:text-4xl mx-4">SEO</span>
           <span className="text-2xl md:text-4xl mx-4"></span>
         </div>
       </div>
