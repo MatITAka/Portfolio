@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "OhMyFood",
-    description: "OhMyFood est un site regroupant des restaurants selon le secteur de votre choix, depuis celle-ci l'on peut consulter les cartes de différents restaurants. Ce projet Mobile First, construit en HTML/CSS, m'a permis d'appronfondir mes connaissances concernant les animations CSS ainsi que découvir une nouvelle approche de responsive design.",
+    description: "OhMyFood est un site regroupant des restaurants selon le secteur de votre choix, depuis celui-ci l'on peut consulter les cartes de différents restaurants. Ce projet Mobile First, construit en HTML/CSS, m'a permis d'appronfondir mes connaissances concernant les animations CSS ainsi que découvir une nouvelle approche de responsive design.",
     image: "/images/OMF.png",
     tag: ["All", "HTML/CSS"],
     gitUrl: "https://github.com/Matzoo38/OhMyFood",
@@ -53,8 +53,8 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Sophie Buell",
-    description: "Le portefeuille de Mme Buell est un portfolio permettant de montrer son travail via des bouttons de filtres. L'on a également ajouté un espace de connexion grâce a JavaScript permettant a Mme Buelle de pouvoir changer notamment les photos présentes dans les galleries de présentation via une modale. Il communique via une API qui suit le modèle CRUD lui permettant d'upload et supprimer les photos présentes dans la gallerie.",
+    title: "Sophie Bluel",
+    description: "Le portefeuille de Mme Bluel est un portfolio permettant de montrer son travail via des boutons de filtres. L'on a également ajouté un espace de connexion grâce a JavaScript permettant a Mme Buelle de pouvoir changer notamment les photos présentes dans les galleries de présentation via une modale. Il communique via une API qui suit le modèle CRUD lui permettant d'upload et supprimer les photos présentes dans la gallerie.",
     image: "/images/SophieBuell.png",
     tag: ["All", "JavaScript"],
     gitUrl: "https://github.com/Matzoo38/Sophie-Buell",
