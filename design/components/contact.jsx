@@ -74,14 +74,14 @@ const ContactSection = () => {
               />
               <textarea
                 name="message"
-                value={formValues.message}
-                onChange={(e) => setFormValues({ ...formValues, message: e.target.value })}
+                value={formValues.text}
+                onChange={(e) => setFormValues({ ...formValues, text: e.target.value })}
                 className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-auto md:mb-auto md:w-full md:h-auto md:min-h-[100px] md:max-h-[100px] md:flex-grow md:flex-shrink md:flex-auto focus:bg-gray-md:focus:outline-none:focus:ring-blue-md:focus:border-transparent transition ease-in-out duration-fastest"
                 placeholder="Message"
               ></textarea>
 
               <ReCAPTCHA
-                sitekey="6Ldv9hopAAAAALm0DxUOH_EzwZLhqWnom4lGyZLe"
+                sitekey="6Lc5UhspAAAAAE9VDu3RxfZgrSvOczCW_9049vwv"
                 onChange={(value) => setRecaptchaValue(value)}
               />
 
