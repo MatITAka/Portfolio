@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
-import ReCAPTCHA from "react-google-recaptcha";
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
 const ContactSection = () => {
@@ -10,8 +9,6 @@ const ContactSection = () => {
     email: "",
     message: "",
   });
-
-  const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -79,11 +76,6 @@ const ContactSection = () => {
                 className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-auto md:mb-auto md:w-full md:h-auto md:min-h-[100px] md:max-h-[100px] md:flex-grow md:flex-shrink md:flex-auto focus:bg-gray-md:focus:outline-none:focus:ring-blue-md:focus:border-transparent transition ease-in-out duration-fastest"
                 placeholder="Message"
               ></textarea>
-
-              <ReCAPTCHA
-                sitekey="6Lc5UhspAAAAAE9VDu3RxfZgrSvOczCW_9049vwv"
-                onChange={(value) => setRecaptchaValue(value)}
-              />
 
               <button
                 type="submit"
